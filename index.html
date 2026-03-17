@@ -208,12 +208,6 @@
       padding: 0 20px;
       overflow: hidden;
     }
-    .ad-wrap.ad-top {
-      background: var(--white);
-      border-bottom: 1px solid var(--border);
-      padding-top: 6px;
-      padding-bottom: 6px;
-    }
     .ad-wrap.ad-inline {
       padding-top: 12px;
       padding-bottom: 4px;
@@ -375,18 +369,6 @@
   </div>
 </header>
 
-<!-- ★ 상단 광고 (탭 위 / 항상 노출) — slot ID를 실제 값으로 교체하세요 -->
-<div class="ad-wrap ad-top">
-  <p class="ad-label">광고</p>
-  <ins class="adsbygoogle"
-       style="display:block"
-       data-ad-client="ca-pub-XXXXXXXX"
-       data-ad-slot="1111111111"
-       data-ad-format="auto"
-       data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
-
 <div class="tab-bar">
   <div class="tab-inner">
     <button class="tab on" onclick="switchTab('profit',this)">수익률 계산기</button>
@@ -396,6 +378,18 @@
 </div>
 
 <div class="page">
+
+  <!-- ★ 상단 광고 (타이틀 위 / 항상 노출) — slot ID를 실제 값으로 교체하세요 -->
+  <div class="ad-wrap ad-inline" style="padding:0 0 16px">
+    <p class="ad-label">광고</p>
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-XXXXXXXX"
+         data-ad-slot="1111111111"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
 
   <!-- SEO H1 + 소개 -->
   <div style="margin-bottom:16px">
