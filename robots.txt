@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://suikcalc.pages.dev/sitemap.xml
